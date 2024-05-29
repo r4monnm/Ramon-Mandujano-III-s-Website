@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=San+Francisco:wght@400;700&display=swap');
+
 body {
     background-color: #0d0d0d;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -7,6 +8,7 @@ body {
     color: #fff;
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 
 .container {
@@ -14,6 +16,7 @@ body {
     background-color: #0d0d0d;
     padding: 0px;
     margin-top: 0px; /* Add some top margin if you want spacing from the top */
+    text-decoration: none;
 }
 
 .navbar {
@@ -91,13 +94,13 @@ body {
 }
 
 .about-me {
-    font-size: 19px;
+    font-size: 18.5px;
     margin-top: 75px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-weight: 240; /* Add this line to make the font bold */
     margin-left: 150px;
     line-height: 1.8;
-    max-width: 680px;
+    max-width: 678px;
     letter-spacing: 0.5px;
 }
 .major {
@@ -128,4 +131,265 @@ body {
     margin-left: 314px;
     letter-spacing: 0.5px;
 
+}
+
+.github-widget {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    background-image: url("Images/githubbackground.jpg");
+    background-size: cover; /* Ensures the image covers the entire widget */
+    background-position: center; /* Centers the image in the widget */
+    border-radius: 7px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    color: #000;
+    margin-top: 60px;
+    margin-left: 660px;
+    box-shadow: 0 0 20px #eb8b08;
+    position: relative;
+}
+.instagram-widget:hover {
+    background-color: #000000;
+}
+
+.instagram-widget {
+    display: inline-block;
+    width: 440px;
+    height: 150px; 
+    padding: 20px;
+    background-image: url("Images/instagrambackground1.jpg");
+    background-size: cover; /* Ensures the image covers the entire widget */
+    background-position: center; /* Centers the image in the widget */
+    transform: scaleX(-1);
+    border-radius: 7px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: filter 0.3s ease;
+    text-decoration: none;
+    color: #000;
+    margin-top: -76px; /* Updated margin-top value */
+    margin-left: 150px;
+    top: -268px;
+    position: relative;
+    z-index: 1;
+    bottom: 17px;
+    box-shadow: 0 0 20px #d63f88;
+}
+
+
+.githublogo {
+    height: 30px;
+    width: 30px;
+    margin-left: -15px;
+    margin-top: 100px;
+    margin-right: 115px;
+    filter: invert(1);
+    z-index: 2;
+    position: relative;
+    top: -103px;
+}
+
+.github-name {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300; /* Add this line to make the font bold */
+    margin-left: -82px;
+    letter-spacing: 0.5px;
+    position: relative;
+    top: -107px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.github-follow {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    padding: 6px;
+    background-color: #141313;
+    margin-top: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 550; /* Add this line to make the font bold */
+    margin-left: 700px;
+    position: relative;
+    top: -135px;
+    border-radius: 7px;
+    width: 90px;
+    z-index: 1;
+    text-align: center;
+    transition: background-color 0.3s, color 0.1s;
+    box-shadow: 0 0 15px #000000;
+}
+
+.github-follow:hover {
+    background-image: url("Images/githubbutton.jpg");
+    background-size: cover; /* Ensures the image covers the entire widget */
+    background-position: center; /* Centers the image in the widget */
+}
+
+
+.github-projects {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    padding: 6px;
+    background-color: #141313;
+    margin-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 550; /* Add this line to make the font bold */
+    margin-left: 700px;
+    position: relative;
+    top: -178.5px;
+    border-radius: 7px;
+    width: 90px;
+    z-index: 1;
+    text-align: center;
+    transition: background-color 0.3s, color 0.1s;
+    box-shadow: 0 0 15px #000000;
+}
+
+.github-projects:hover {
+    background-image: url("Images/githubbutton.jpg");
+    background-size: cover; /* Ensures the image covers the entire widget */
+    background-position: center; /* Centers the image in the widget */
+}
+
+.github-repositories {
+    font-size: 12px;
+    color: rgb(255, 250, 250);
+    padding: 6px;
+    background-color: #141313;
+    margin-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 550; /* Add this line to make the font bold */
+    margin-left: 700px;
+    position: relative;
+    top: -108px;
+    border-radius: 7px;
+    width: 90px;
+    z-index: 1;
+    text-align: center;
+    transition: background-image 0.5s, color 0.1s;
+    box-shadow: 0 0 15px #000000;
+}
+
+.github-repositories:hover {
+    background-image: url("Images/githubbutton.jpg");
+    background-size: cover; /* Ensures the image covers the entire widget */
+    background-position: center; /* Centers the image in the widget */
+}
+
+.instagramlogo1 {
+    height: 30px;
+    width: 30px;
+    margin-left: 410px;
+}
+
+.instagram-name {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    transform: scaleX(-1);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300; /* Add this line to make the font bold */
+    letter-spacing: 0.5px;
+    position: relative;
+    top: -8px;
+    margin-left: 360px;
+
+}
+
+.instagram-follow {
+    font-size: 12px;
+    color: #f93d34;
+    padding: 6px;
+    background-color: #ffffff;
+    border:#d63f88 1.5px solid;
+    margin-top: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 550; /* Add this line to make the font bold */
+    margin-left: 165px;
+    position: relative;
+    top: -350px;
+    border-radius: 7px;
+    width: 90px;
+    z-index: 1;
+    text-align: center;
+    transition: background-color 0.3s, color 0.1s;
+}
+
+.instagram-follow:hover {
+    background-image: url("Images/instagrambackground1.jpg");
+    background-size: cover; /* Ensures the image covers the entire widget */
+    background-position: center; /* Centers the image in the widget */
+    color:#ffffff;
+    border:#ffffff 1.5px solid;
+}
+
+.instagram-post-one img{
+    background-size: contain; /* Ensures the image covers the entire widget */
+    margin-top: 10px;
+    margin-left: 365px;
+    position: relative;
+    top: -510px;
+    border-radius: 7px;
+    height: 63px;
+    width: 112px;
+    text-align: center; 
+    max-height: 90px;
+    transition: filter 0.3s ease;
+    z-index: 2;
+    box-shadow: 0 0 20px #000000;
+}
+
+.instagram-post-one img:hover {
+    filter:brightness(50%)
+}
+
+.instagram-post-two img{
+    background-size: contain; /* Ensures the image covers the entire widget */
+    margin-top: 10px;
+    margin-left: 495px;
+    position: relative;
+    top: -586.5px;
+    border-radius: 7px;
+    height: 63px;
+    width: 112px;
+    z-index: 1;
+    transition: filter 0.3s ease;
+    text-align: center; 
+    max-height: 90px;
+    box-shadow: 0 0 20px #000000;
+}
+
+
+.instagram-post-two img:hover {
+    filter:brightness(50%)
+}
+.instagram-post-three img{
+    background-size: contain;
+    margin-top: 10px;
+    margin-left: 430px;
+    position: relative;
+    top: -583px;
+    border-radius: 7px;
+    height: 63px;
+    width: 112px;
+    z-index: 1;
+    text-align: center; 
+    max-height: 90px;
+    box-shadow: 0 0 15px #000000;
+    transition: filter 0.3s ease; /* Added 's' after 0.3 for seconds */
+}
+
+.instagram-post-three img:hover {
+    filter: brightness(50%);
+    transition: filter 0.3s ease; /* Added transition for hover effect */
 }
